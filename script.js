@@ -4,5 +4,5 @@ function leapyear(year) {
 }
 function daysOfAYea(year) {
 	let isleap=leapyear(year)
-	return isleap?365:366;
+	return isleap?366:365;
 }
